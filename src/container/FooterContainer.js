@@ -10,16 +10,18 @@ export function FooterContainer() {
                 <div className='row'>
                     <div className="column">
                         <h3 className='title'>AbouUs</h3>
-                        <a className="link" href="#">Story</a>
-                        <a className="link" href="/login">login</a>
-                        <a className="link" href="#">Story</a>
+                        
+                        <a className="link" href="/login" style={{ color: "blue" }}>login</a>
+                        <a className="link" href="/about" style={{ color: "blue" }}>about</a>
+                        <a className="link" href="#" style={{ color: "blue" }}>location</a>
+                  
 
                     </div>
                     <div className="column">
                         <h3 className='title'> Reservation</h3>
                         <a className="link" href="/booking" style={{ color: "black" }}>booking</a>
                         <h4 className="link" href="#"><span>Tel : </span>04555466677</h4>
-                        <h4 className="link" href="#"><span>Email : </span>spandi@giaml.com</h4>
+                        <h4 className="link" href="#"><span>Email : </span>samigebremeskel2014@gmail.com</h4>
 
                     </div>
                     <div className="column">

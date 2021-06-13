@@ -62,7 +62,7 @@ function Gallery() {
     }
     return (
         <div>
-            <div className='galleryLoggedIn'>
+            <div className='galleryLoggedIn displayFlex'>
                 <p>Add image</p>
                 <div >
                     <textarea

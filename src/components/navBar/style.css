@@ -6,13 +6,31 @@
     overflow: hidden;
     opacity: 1;
 
-}
-.imageHedre img{
+} .imageHedre img{
     width: 1400px;
     backdrop-filter: blur(25px);
     object-fit: cover;
     max-height: 100px;
     margin-left: 20px;
+   opacity: .6;
     
     
+}
+h1{
+    display: none;
+   
+}
+
+@media screen and (max-width:786px){
+    .imageHedre img{
+       display: none;
+    }
+    h1{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-left: 40px;
+        justify-content: center;
+        display: flex;
+    }
 }

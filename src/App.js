@@ -9,7 +9,8 @@ import BookingList from './components/fetchData/BookingList';
 import Data from './components/fetchData/Data';
 import NavBar from './components/navBar';
 import AdminLogin from './components/AdminLogin';
-import { FooterContainer } from './container/FooterContainer';
+import About from './components/about/About';
+
 
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
           </Route>
           <Route exact path="/booking">
           <Booking />
+          </Route>
+          <Route exact path="/about">
+          <About/>
           </Route>
           <Route exact path="/login">
           <AdminLogin/>

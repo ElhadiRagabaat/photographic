@@ -4,6 +4,7 @@
 *{
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 
 }
 
@@ -136,6 +137,10 @@ code {
 
   
 }
+.link svg{
+  font-size: 30px;
+  color: rgb(165, 30, 75);
+}
 .title{
   color: palevioletred;
   margin-bottom: 10px;
@@ -150,6 +155,11 @@ code {
   display: inline-block;
   width: 100%;
 
+  }
+  .displayFlex{
+    display: block;
+    padding: 10px;
+    width: 100%;
   }
 }
  span{
