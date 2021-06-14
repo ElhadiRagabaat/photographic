@@ -106,7 +106,7 @@ function Booking() {
             </div>}
             <Container className={classes.container} id="container">
                 <h1>Booking form</h1>
-                <p>Fill up the form then click send</p>
+                <p>Fill up the form then click submit</p>
 
                 <MuiPickersUtilsProvider utils={DateFnsUtils}>
                     <div style={{ justifyContent: "space-between", display: 'flex' }}>
