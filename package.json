@@ -12,6 +12,8 @@
     "@testing-library/user-event": "^12.8.3",
     "date-fns": "^2.22.1",
     "firebase": "^8.6.3",
+    "firebase-admin": "^9.8.0",
+    "firebase-functions": "^3.14.1",
     "react": "^17.0.2",
     "react-datetime-picker": "^3.3.0",
     "react-dom": "^17.0.2",
