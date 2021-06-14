@@ -37,10 +37,11 @@ function ImageContainer({ id, post, photoUrl }) {
             <Container>
                 
                 <Card elevation={2} style={{ width: "100%",marginTop:"1px" }}>
-                    <CardHeader
+                    {/* <CardHeader
 
                         subheader={post}
-                    /> <div className="pics">
+                    />  */}
+                    <div className="pics">
                         <img src={photoUrl} alt="" style={{ width: "100%", objectFit: "fill" }}
                             onClick={() => getImg(photoUrl)}
                         />

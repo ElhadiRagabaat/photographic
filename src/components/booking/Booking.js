@@ -14,6 +14,7 @@ import {
 import { useState } from 'react'
 import { db } from '../firebase'
 import { useHistory } from 'react-router-dom'
+import { FooterContainer } from '../../container/FooterContainer'
 
 const myStyle = makeStyles({
     inputs: {
@@ -160,10 +161,11 @@ function Booking() {
                         error={eventError}
                     />
                     <Button variant="contained" type="submit"
-                        color="secondary" className={classes.inputs} style={{ margin: " 0 auto" }}>Submit</Button>
+                        color="secondary" className={classes.inputs} style={{ margin: " 10px auto" }}>Submit</Button>
 
                 </form>
             </Container>
+            <FooterContainer/>
         </>
     )
 }
