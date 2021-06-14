@@ -25,7 +25,7 @@
     .imageHedre img{
        display: none;
     }
-   .imageHedre h1{
+   .welcom{
         display: flex;
         align-items: center;
         text-align: center;
