@@ -98,7 +98,7 @@ function Booking() {
         <>
             {isBooked && <div style={{
                 marginTop: "70px", fontWeight: "bolder",
-                color: "pink", fontSize: "20px"
+                color: "#5d5d5d", fontSize: "20px"
             }}>
                 <h1> Hey <span style={{color:"black"}}>{ name } </span> thank you for Contact us  </h1>
                 <h1> and we will back to you soon</h1>
